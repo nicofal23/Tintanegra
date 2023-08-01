@@ -11,7 +11,7 @@ header, footer {
   background-repeat: no-repeat; }
 
 footer {
-  background: linear-gradient(#d8d5d5 20%, black); }
+  background: linear-gradient(#d8d5d5 30%, black); }
 
 .titulo {
   padding: 10px; }
@@ -37,15 +37,15 @@ body {
 
 .grid-index {
   display: grid;
-  grid-template-columns: 150px;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 250px;
+  grid-template-rows: 250px 250px 250px;
   justify-content: center;
-  gap: 20px;
-  margin: 30px; }
+  gap: 40px;
+  margin-bottom: 50px; }
 
 .contenedor-hombre {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin: 10px; }
   .contenedor-hombre:hover .imagen {
     transform: scale(1.5); }
@@ -56,8 +56,8 @@ body {
   transition: transform 0.5s; }
 
 .contenedor-niños {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin: 10px; }
   .contenedor-niños:hover .imagen {
     transform: scale(1.5); }
@@ -71,11 +71,15 @@ body {
   transition: transform 0.5s; }
 
 .contenedor-accesorios {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin: 10px; }
   .contenedor-accesorios:hover .imagen {
     transform: scale(1.5); }
+
+.text {
+  font-family: titulo,cursive;
+  font-size: 24px; }
 
 .divfooter img {
   width: 2.5rem; }
@@ -87,11 +91,3 @@ body {
   .redessociales img {
     width: 2.5rem;
     margin: .625rem; }
-
-.whatsapplink {
-  position: fixed;
-  right: 1.25rem;
-  z-index: 9999;
-  bottom: 1.25rem; }
-  .whatsapplink img {
-    width: 40px; }
