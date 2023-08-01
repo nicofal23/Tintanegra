@@ -1,0 +1,21 @@
+.sectioncontacto {
+    gap: 1.25rem;
+}
+
+.imagencontacto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    img {
+        width: 200px;
+    }
+}
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+}

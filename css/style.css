@@ -97,3 +97,27 @@ body {
   .redessociales img {
     width: 2.5rem;
     margin: .625rem; }
+
+.induhombre {
+  display: flex;
+  text-align: center;
+  font-size: 1.125rem;
+  justify-content: center; }
+
+.sectioncontacto {
+  gap: 1.25rem; }
+
+.imagencontacto {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+  .imagencontacto img {
+    width: 200px; }
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+  .ubicacion iframe {
+    width: 200px;
+    height: 200px; }
