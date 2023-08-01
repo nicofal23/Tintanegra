@@ -17,7 +17,13 @@ footer {
   padding: 10px; }
   .titulo h1 {
     color: #e4e0e0;
-    font-size: 35px;
+    font-size: 30px;
+    font-family: titulo, cursive;
+    display: flex;
+    justify-content: center; }
+  .titulo h4 {
+    color: #e4e0e0;
+    font-size: 15px;
     font-family: titulo, cursive;
     display: flex;
     justify-content: center; }
@@ -33,7 +39,7 @@ body {
 
 @font-face {
   font-family: titulo;
-  src: url(https://fonts.googleapis.com/css2?family=Borel&display=swap); }
+  src: url(../assets/fonts/blanka.otf); }
 
 .grid-index {
   display: grid;

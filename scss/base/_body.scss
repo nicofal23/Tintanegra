@@ -12,7 +12,14 @@ footer {
     padding: 10px;
     h1 {
         color: rgb(228, 224, 224);
-        font-size: 35px;
+        font-size: 30px;
+        font-family: titulo, cursive;
+        display: flex;
+        justify-content: center;
+    }
+    h4{
+        color: rgb(228, 224, 224);
+        font-size: 15px;
         font-family: titulo, cursive;
         display: flex;
         justify-content: center;
