@@ -1,0 +1,34 @@
+header {
+    background-color: black;
+    background: linear-gradient(black 20%, rgb(216, 213, 213));
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer {
+    @extend header;
+    background: linear-gradient(rgb(216, 213, 213) 20%, black);
+}
+.titulo {
+    padding: 10px;
+    h1 {
+        color: rgb(228, 224, 224);
+        font-size: 35px;
+        font-family: titulo, cursive;
+        display: flex;
+        justify-content: center;
+    }
+}
+.navbar-nav {
+    a {
+        color: white;
+    }
+}
+body {
+    background-color: rgb(216, 213, 213);
+}
+.navbar-toggler{
+        background: white;
+    }
+
+
+

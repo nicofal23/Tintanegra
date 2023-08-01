@@ -1,0 +1,97 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header, footer {
+  background-color: black;
+  background: linear-gradient(black 20%, #d8d5d5);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+footer {
+  background: linear-gradient(#d8d5d5 20%, black); }
+
+.titulo {
+  padding: 10px; }
+  .titulo h1 {
+    color: #e4e0e0;
+    font-size: 35px;
+    font-family: titulo, cursive;
+    display: flex;
+    justify-content: center; }
+
+.navbar-nav a {
+  color: white; }
+
+body {
+  background-color: #d8d5d5; }
+
+.navbar-toggler {
+  background: white; }
+
+@font-face {
+  font-family: titulo;
+  src: url(https://fonts.googleapis.com/css2?family=Borel&display=swap); }
+
+.grid-index {
+  display: grid;
+  grid-template-columns: 150px;
+  grid-template-rows: 150px 150px 150px;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px; }
+
+.contenedor-hombre {
+  width: 150px;
+  height: 150px;
+  margin: 10px; }
+  .contenedor-hombre:hover .imagen {
+    transform: scale(1.5); }
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; }
+
+.contenedor-niños {
+  width: 150px;
+  height: 150px;
+  margin: 10px; }
+  .contenedor-niños:hover .imagen {
+    transform: scale(1.5); }
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; }
+
+.contenedor-accesorios {
+  width: 150px;
+  height: 150px;
+  margin: 10px; }
+  .contenedor-accesorios:hover .imagen {
+    transform: scale(1.5); }
+
+.divfooter img {
+  width: 2.5rem; }
+
+.redessociales {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .redessociales img {
+    width: 2.5rem;
+    margin: .625rem; }
+
+.whatsapplink {
+  position: fixed;
+  right: 1.25rem;
+  z-index: 9999;
+  bottom: 1.25rem; }
+  .whatsapplink img {
+    width: 40px; }
