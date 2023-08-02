@@ -112,12 +112,19 @@ body {
   justify-content: center;
   margin: 10px; }
   .imagencontacto img {
-    width: 200px; }
+    width: 300px; }
 
 .ubicacion {
   display: flex;
   justify-content: center;
   margin: 15px; }
   .ubicacion iframe {
-    width: 200px;
+    width: 350px;
     height: 200px; }
+
+.imagentinta {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+  .imagentinta img {
+    width: 300px; }
