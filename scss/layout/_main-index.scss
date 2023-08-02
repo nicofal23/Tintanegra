@@ -15,6 +15,10 @@
 			transform: scale(1.5);
 		}
 	} 
+	h4 {
+		margin-left: 20px;
+		margin-top: 5px;
+	}
 }
 .imagen {
 	width: 100%;
@@ -29,6 +33,10 @@
 		.imagen {
 			transform: scale(1.5);
 		}
+	}
+	h4 {
+		margin-left: 20px;
+		margin-top: 5px;
 	}
 }
 .imagen {
@@ -48,8 +56,12 @@
 			transform: scale(1.5);
 		}
 	}
+	h4 {
+		margin-left: 70px;
+		margin-top: 5px;
+	}
 }
 .text {
-	font-family: titulo,cursive;
+	font-family: notas;
 	font-size: 24px;
 }

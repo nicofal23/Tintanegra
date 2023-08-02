@@ -23,8 +23,8 @@ footer {
     justify-content: center; }
   .titulo h4 {
     color: #e4e0e0;
-    font-size: 15px;
-    font-family: titulo, cursive;
+    font-size: 20px;
+    font-family: notas;
     display: flex;
     justify-content: center; }
 
@@ -41,6 +41,10 @@ body {
   font-family: titulo;
   src: url(../assets/fonts/blanka.otf); }
 
+@font-face {
+  font-family: notas;
+  src: url(https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@300&display=swap); }
+
 .grid-index {
   display: grid;
   grid-template-columns: 250px;
@@ -55,6 +59,9 @@ body {
   margin: 10px; }
   .contenedor-hombre:hover .imagen {
     transform: scale(1.5); }
+  .contenedor-hombre h4 {
+    margin-left: 20px;
+    margin-top: 5px; }
 
 .imagen {
   width: 100%;
@@ -67,6 +74,9 @@ body {
   margin: 10px; }
   .contenedor-niños:hover .imagen {
     transform: scale(1.5); }
+  .contenedor-niños h4 {
+    margin-left: 20px;
+    margin-top: 5px; }
 
 .imagen {
   width: 100%;
@@ -82,9 +92,12 @@ body {
   margin: 10px; }
   .contenedor-accesorios:hover .imagen {
     transform: scale(1.5); }
+  .contenedor-accesorios h4 {
+    margin-left: 70px;
+    margin-top: 5px; }
 
 .text {
-  font-family: titulo,cursive;
+  font-family: notas;
   font-size: 24px; }
 
 .divfooter img {
