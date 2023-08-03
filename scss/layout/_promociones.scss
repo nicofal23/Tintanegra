@@ -1,0 +1,14 @@
+.formasdepago {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    .listadesc {
+        ul{
+            li{
+                margin-top: 20px;
+            }
+        }
+    }
+}
