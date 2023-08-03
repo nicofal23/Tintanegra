@@ -61,7 +61,8 @@ body {
     transform: scale(1.5); }
   .contenedor-hombre h4 {
     margin-left: 20px;
-    margin-top: 5px; }
+    margin-top: 5px;
+    font-size: 20px; }
 
 .imagen {
   width: 100%;
