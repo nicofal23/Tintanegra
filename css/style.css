@@ -153,7 +153,13 @@ body {
   display: flex;
   text-align: center;
   flex-direction: column;
+  list-style: none;
   margin-top: 100px;
+  margin-bottom: 10px; }
+  .formasdepago .listadesc ul {
+    list-style: none; }
+    .formasdepago .listadesc ul li {
+      margin-top: 20px; }
+
+.cardpromo div .card {
   margin-bottom: 200px; }
-  .formasdepago .listadesc ul li {
-    margin-top: 20px; }
