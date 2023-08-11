@@ -163,3 +163,7 @@ body {
 
 .cardpromo div .card {
   margin-bottom: 200px; }
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center; }

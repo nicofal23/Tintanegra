@@ -3,16 +3,14 @@
 }
 
 .imagencontacto {
-    display: flex;
-    justify-content: center;
+    @include flex;
     margin: 10px;
     img {
         width: 300px;
     }
 }
 .ubicacion {
-    display: flex;
-    justify-content: center;
+    @include flex;
     margin: 15px;
     iframe {
         width: 350px;
@@ -20,8 +18,7 @@
     }
 }
 .imagentinta {
-    display: flex;
-    justify-content: center;
+    @include flex;
     margin: 10px;
     img {
         width: 300px;
