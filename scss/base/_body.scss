@@ -36,6 +36,19 @@ body {
 .navbar-toggler{
         background: white;
     }
-
+.titulo {
+    animation: cambio-de-color 5s linear infinite;
+}
+@keyframes cambio-de-color {
+    0% {
+        color: rgb(228, 224, 224);
+    }
+    50% {
+        color: rgb(245, 21, 21);
+    }
+    100% {
+        color: rgb(122, 117, 117);
+    }
+}
 
 

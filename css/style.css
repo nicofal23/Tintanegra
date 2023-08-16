@@ -37,6 +37,17 @@ body {
 .navbar-toggler {
   background: white; }
 
+.titulo {
+  animation: cambio-de-color 5s linear infinite; }
+
+@keyframes cambio-de-color {
+  0% {
+    color: #e4e0e0; }
+  50% {
+    color: #f51515; }
+  100% {
+    color: #7a7575; } }
+
 @font-face {
   font-family: titulo;
   src: url(../assets/fonts/blanka.otf); }
