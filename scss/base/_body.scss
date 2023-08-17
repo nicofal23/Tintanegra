@@ -12,7 +12,7 @@ footer {
     padding: 10px;
     h1 {
         color: rgb(228, 224, 224);
-        font-size: 30px;
+        font-size: 60px;
         font-family: titulo, cursive;
         display: flex;
         justify-content: center;
@@ -36,7 +36,7 @@ body {
 .navbar-toggler{
         background: white;
     }
-.titulo {
+h1 {
     animation: cambio-de-color 5s linear infinite;
 }
 @keyframes cambio-de-color {
@@ -44,10 +44,10 @@ body {
         color: rgb(228, 224, 224);
     }
     50% {
-        color: rgb(245, 21, 21);
+        color: rgb(143, 141, 141);
     }
     100% {
-        color: rgb(122, 117, 117);
+        color: rgb(77, 75, 75);
     }
 }
 

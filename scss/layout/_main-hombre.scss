@@ -4,30 +4,3 @@
     font-size: 1.125rem;
     justify-content: center;
 } 
-div.induhombre h1 {
-    font-family: notas;
-    animation: font-change 5s infinite linear, split-text 2s linear infinite;
-    transition: font-family 2s ease-in-out;
-  }
-  
-  @keyframes font-change {
-    0% {
-      font-family: notas;
-    }
-    100% {
-      font-family: titulo;
-    }
-  }
-  
-  @keyframes split-text {
-    0% {
-      width: 100%;
-    }
-    25% {
-      width: 50%;
-      transform: skew(-30deg);
-    }
-    50% {
-      width: 50%;
-    }
-  }

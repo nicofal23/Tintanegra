@@ -17,7 +17,7 @@ footer {
   padding: 10px; }
   .titulo h1 {
     color: #e4e0e0;
-    font-size: 30px;
+    font-size: 60px;
     font-family: titulo, cursive;
     display: flex;
     justify-content: center; }
@@ -37,16 +37,16 @@ body {
 .navbar-toggler {
   background: white; }
 
-.titulo {
+h1 {
   animation: cambio-de-color 5s linear infinite; }
 
 @keyframes cambio-de-color {
   0% {
     color: #e4e0e0; }
   50% {
-    color: #f51515; }
+    color: #8f8d8d; }
   100% {
-    color: #7a7575; } }
+    color: #4d4b4b; } }
 
 @font-face {
   font-family: titulo;
@@ -129,26 +129,6 @@ body {
   font-size: 1.125rem;
   justify-content: center; }
 
-div.induhombre h1 {
-  font-family: notas;
-  animation: font-change 5s infinite linear, split-text 2s linear infinite;
-  transition: font-family 2s ease-in-out; }
-
-@keyframes font-change {
-  0% {
-    font-family: notas; }
-  100% {
-    font-family: titulo; } }
-
-@keyframes split-text {
-  0% {
-    width: 100%; }
-  25% {
-    width: 50%;
-    transform: skew(-30deg); }
-  50% {
-    width: 50%; } }
-
 .sectioncontacto {
   gap: 1.25rem; }
 
@@ -199,10 +179,6 @@ div.induhombre h1 {
   display: flex;
   justify-content: center; }
 
-.navbar-collapse {
-  display: flex;
-  justify-content: center; }
-
 .hombre {
   width: 95%;
   margin: 10px; }
@@ -213,3 +189,24 @@ div.induhombre h1 {
 .card-img-top {
   width: 12rem;
   height: 15rem; }
+
+@media (min-width: 1024px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: center; }
+  h1 {
+    font-size: 80px; }
+  .col-lg-3 {
+    margin-left: 50px; }
+  .sectioncontacto {
+    display: flex;
+    justify-content: center; }
+    .sectioncontacto .imagentinta img {
+      width: 300px; }
+    .sectioncontacto .ubicacion iframe {
+      width: 300px;
+      height: 300px; }
+    .sectioncontacto .imagencontacto img {
+      width: 300px; }
+  .carousel {
+    width: 60%; } }
