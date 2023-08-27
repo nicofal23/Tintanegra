@@ -1,6 +1,6 @@
 # Sitio web TintaNegra
 
-Este repositorio contiene el código fuente para el sitio web de TintaNegra, una tienda en línea de ropa y accesorios para hombres y niños.
+Este repositorio contiene el código fuente para el sitio web de TintaNegra, una tienda en línea de ropa y accesorios para hombres y niños.El cliente solicitó que cada card de las prendas deriven al cliente a su Whatsapp
 
 ## Descripción
 
